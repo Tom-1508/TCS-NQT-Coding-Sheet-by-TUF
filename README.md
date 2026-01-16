@@ -1,4 +1,3 @@
-```md
 # Company Exam Preparation – DSA & Programming Sheet (Python)
 
 This repository contains my step-by-step solutions for common **company exam / placement coding questions**, implemented in **Python**.
@@ -113,5 +112,3 @@ I will keep adding more solutions for:
 ## ⭐ If you found this useful
 
 Feel free to star the repo and use it for your own practice!
-
-```
