@@ -302,3 +302,234 @@ Expected:
 ```
 
 ---
+
+# 🔢 NUMBERS — Check if a Number is Armstrong or Not
+
+## ✅ What is an Armstrong Number?
+
+A number is called **Armstrong** if:
+
+> sum of each digit raised to the power of number of digits
+> = the original number
+
+### Example: `153`
+
+Digits = 1, 5, 3
+Number of digits = 3
+
+So:
+
+```
+1³ + 5³ + 3³
+= 1 + 125 + 27
+= 153 ✅ Armstrong
+```
+
+---
+
+## 🧠 Simple Steps
+
+1. Store the original number
+2. Count number of digits
+3. Extract each digit and calculate `digit^digits`
+4. Add them
+5. If final sum == original → Armstrong ✅
+
+---
+
+## ✅ Python Code
+
+```python
+def is_armstrong(n):
+    original = n
+    digits = len(str(n))   # count digits
+    total = 0
+
+    while n > 0:
+        digit = n % 10
+        total += digit ** digits
+        n = n // 10
+
+    return total == original
+```
+
+---
+
+## ⏱ Time Complexity (TC)
+
+**O(D)**
+(D = number of digits)
+
+---
+
+## 📦 Space Complexity (SC)
+
+**O(1)**
+
+---
+
+## ✅ Test It
+
+```python
+print(is_armstrong(153))  # True
+print(is_armstrong(370))  # True
+print(is_armstrong(123))  # False
+```
+
+---
+
+
+Perfect, Tamal! 🔥✅
+Next one:
+
+---
+
+# 🔢 **NUMBERS — Problem**
+
+## ✅ Check if a Number is a Perfect Number
+
+### 💡 What is a Perfect Number?
+
+A number is **perfect** if:
+
+✅ sum of its **proper divisors** (excluding itself) = number
+
+Example: `28`
+Divisors of 28 (excluding 28): `1, 2, 4, 7, 14`
+Sum = `1+2+4+7+14 = 28` ✅ Perfect
+
+---
+
+## 🧠 Simple Steps
+
+1. Start sum = 0
+2. Loop from 1 to n-1
+3. If i divides n → add i
+4. Check sum == n
+
+---
+
+## ✅ Code
+
+```python
+def is_perfect(n):
+    if n <= 1:
+        return False
+
+    total = 0
+
+    for i in range(1, n):
+        if n % i == 0:
+            total += i
+
+    return total == n
+```
+
+---
+
+## ⏱ Time Complexity (TC)
+
+**O(N)**
+
+## 📦 Space Complexity (SC)
+
+**O(1)**
+
+---
+
+## ⭐ Test
+
+```python
+print(is_perfect(28))  # True
+print(is_perfect(12))  # False
+```
+
+---
+
+# 🔢 **NUMBERS — Problem**
+
+## ✅ Even or Odd
+
+### 💡 Simple Rule
+
+* If `n % 2 == 0` → **Even**
+* Else → **Odd**
+
+---
+
+## ✅ Code
+
+```python
+def is_even_or_odd(n):
+    if n % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+```
+
+---
+
+## ⏱ Time Complexity (TC)
+
+**O(1)**
+
+## 📦 Space Complexity (SC)
+
+**O(1)**
+
+---
+
+## ⭐ Test
+
+```python
+print(is_even_or_odd(10))  # Even
+print(is_even_or_odd(7))   # Odd
+```
+
+---
+
+# 🔢 **NUMBERS — Problem**
+
+## ✅ Check Whether a Number is Positive or Negative
+
+### 💡 Simple Rule
+
+* `n > 0` → Positive
+* `n < 0` → Negative
+* `n == 0` → Zero
+
+---
+
+## ✅ Code
+
+```python
+def check_number(n):
+    if n > 0:
+        return "Positive"
+    elif n < 0:
+        return "Negative"
+    else:
+        return "Zero"
+```
+
+---
+
+## ⏱ Time Complexity (TC)
+
+**O(1)**
+
+## 📦 Space Complexity (SC)
+
+**O(1)**
+
+---
+
+## ⭐ Test
+
+```python
+print(check_number(10))   # Positive
+print(check_number(-5))   # Negative
+print(check_number(0))    # Zero
+```
+
+---
