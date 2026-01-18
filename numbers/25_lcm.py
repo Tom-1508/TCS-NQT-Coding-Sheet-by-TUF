@@ -1,0 +1,10 @@
+def gcd(a,b):
+    while b!=0:
+        a,b = b, a%b
+    return a
+
+def lcm(a,b):
+    return (a*b) // gcd(a,b)
+
+print(lcm(12, 18))  # 36
+print(lcm(5, 10))   # 10
