@@ -52,6 +52,22 @@ def frequency(arr):
             freq[a] = 1
     return freq
 
+def arr_inc_dec(arr):
+    arr = sorted(arr)
+    left = 0
+    right = len(arr)-1
+    res = []
+    
+    while left <= right:
+        res.append(arr[left])
+        left +=1
+        if left <= right:
+            res.append(arr[right])
+            right -= 1
+    
+    return res
+        
+
 # print(smallest([5,2,9,1,6]))
 # print(largest([5,2,9,1,6]))
 # print(second_smallest([5, 2, 9, 1, 6]))

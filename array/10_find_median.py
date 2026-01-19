@@ -10,5 +10,5 @@ def find_median(arr):
         # even length = average of middle two
         return (arr[mid - 1] + arr[mid]) / 2
     
-print(find_median([3,1,5]))
-print(find_median([4,2,9,6]))
+print(find_median([3,1,5])) #3
+print(find_median([4,2,9,6])) # 5

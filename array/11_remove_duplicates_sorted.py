@@ -6,9 +6,9 @@ def remove_duplicates_sorted(arr):
 
     for j in range(1, len(arr)):
         if arr[j] != arr[j - 1]:
-            arr[i] = arr[j]
+            arr[i] = arr[j] # 2
             i += 1
 
     return arr[:i]   # only unique part
 
-print(remove_duplicates_sorted([1,1,2,2,3,4,4,4,5]))
+print(remove_duplicates_sorted([1,1,2,2,3,4,4,4,5])) #[]

@@ -13,3 +13,5 @@ def repeating_elements(arr):
             result.append(num)
 
     return result
+
+# [11,22,33,4,4,5,6,7,7]

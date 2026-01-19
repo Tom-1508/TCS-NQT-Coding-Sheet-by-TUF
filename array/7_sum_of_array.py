@@ -5,3 +5,4 @@ def sum_of_array(arr):
     return total
 
 print(sum_of_array([1,2,3,4,5]))
+print(sum([2,3,4,56,8]))
