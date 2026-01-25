@@ -1,4 +1,4 @@
-# ✅ **ARRAYS — Problem 1**
+  # ✅ **ARRAYS — Problem 1**
 
 ## **1) Find the smallest number in an array**
 

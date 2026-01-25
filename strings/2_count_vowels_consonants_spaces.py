@@ -10,6 +10,7 @@ def count_vowels_consonants_spaces(s):
         
         elif ch.isalpha():
             consonants+=1
+            
         elif ch == " ":
             spaces += 1
     

@@ -1,114 +1,146 @@
-# Company Exam Preparation – DSA & Programming Sheet (Python)
+# 🚀 Placement Coding Preparation (Python) — Complete Series
 
-This repository contains my step-by-step solutions for common **company exam / placement coding questions**, implemented in **Python**.
+This repository contains my **topic-wise Python solutions** for the most important **placement / company exam coding questions** (Cognizant, TCS NQT, Wipro, Infosys, Capgemini, etc.).
 
-The goal of this repo is to practice and revise the most important topics required for:
-- Campus placement exams
-- Company coding rounds
-- Basic DSA + problem solving interviews
+The main goal of this repo is to act like a **complete learning + revision pack**, where every topic is structured properly and each problem is explained in a way that helps in exams and interviews.
 
 ---
 
-## 📌 Topics Covered
+## ✅ Topics Covered
 
-This repository includes problems from:
-
-### ✅ Arrays
-- Min / Max elements
-- Second smallest & largest
-- Reverse array
-- Frequency count
-- Remove duplicates (sorted & unsorted)
-- Rotation (left/right/circular)
+### 📌 1) Arrays
+- Min / Max
+- Second min / Second max
+- Reverse
+- Frequency counting
+- Duplicates (sorted & unsorted)
+- Rotations (left/right/circular)
 - Equilibrium index
-- Sorting by frequency
-- Subset check
+- Sort by frequency
+- Symmetric pairs
+- Maximum product subarray
+- Subset checking
 - and more...
 
-### ✅ Numbers
-- Palindrome check + palindrome range
-- Prime check + prime range
-- (More number problems will be added)
+---
 
-### ✅ Sorting (Upcoming)
+### 📌 2) Numbers
+- Palindrome / Palindrome range
+- Prime / Prime range
+- Armstrong
+- Perfect / Strong / Automorphic
+- Harshad / Abundant
+- Sum of digits / Sum in range
+- Factorial / Power
+- Factors / Prime factors
+- AP / GP series
+- Fractions addition
+- Replace 0s with 1s
+- Sum of two primes
+- Area of circle
+- Quadratic equation roots
+- and more...
+
+---
+
+### 📌 3) Number System
+- Binary ↔ Decimal
+- Binary ↔ Octal
+- Decimal ↔ Binary
+- Decimal ↔ Octal
+- Octal ↔ Binary
+- Octal ↔ Decimal
+- Number to words
+
+---
+
+### 📌 4) Sorting Algorithms
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
 - Merge Sort
 - Quick Sort
 
-### ✅ Strings (Upcoming)
-- Palindrome string
-- Vowel/consonant count
-- Anagrams
-- Frequency counting
-- Duplicate characters
-- Substrings and more...
+---
+
+### 📌 5) Strings
+- Palindrome check
+- Count vowels/consonants/spaces
+- ASCII value
+- Remove vowels/spaces
+- Keep only alphabets
+- Reverse string / reverse words
+- Remove brackets
+- Sum of numbers in string
+- Character frequency
+- Non-repeating characters
+- Anagrams (simple + optimal)
+- Max occurring character
+- Remove duplicates / print duplicates
+- Wildcard matching (`?`, `*`)
+- Lexicographic transformations
+- Substring search
+- and more...
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Structure
 
-The code is organized topic-wise in folders:
+This repository is organized topic-wise into folders:
 
 ```
 
-📦 DSA-Company-Exam-Sheet
-┣ 📂 array
-┃ ┣ 📜 1_smallest.py
-┃ ┣ 📜 2_largest.py
-┃ ┣ 📜 ...
-┃ ┗ 📜 array.md
+📦 placement-coding-python
+┣ 📂 arrays
 ┣ 📂 numbers
-┃ ┣ 📜 1_is_palindrome.py
-┃ ┣ 📜 2_palindrome_in_range.py
-┃ ┣ 📜 3_is_prime.py
-┃ ┣ 📜 4_primes_in_range.py
-┃ ┗ 📜 numbers.md
+┣ 📂 number_system
+┣ 📂 sorting
+┣ 📂 strings
 ┗ 📜 README.md
 
-````
+```
 
-✅ Each topic folder contains:
-- Python solution files (`.py`)
-- A markdown notes file (`.md`) for quick revision
+✅ **Important:**  
+Each topic folder contains its own dedicated **README.md** with:
+
+- 📌 The full list of questions (topic-wise)
+- ✅ Solutions for each question
+- 🧠 Approach + how to think for each problem
+- ⚡ Algorithm / logic breakdown step-by-step
+- ⏱ Time Complexity (TC)
+- 📦 Space Complexity (SC)
+- ✅ Common edge cases and exam tips
+
+This makes revision extremely fast, because you can jump to any topic and revise question-by-question with the correct approach.
 
 ---
 
 ## ▶️ How to Run
 
-Make sure Python is installed, then run any file like:
+Make sure Python is installed, then run any solution file like:
 
 ```bash
-python numbers/3_is_prime.py
-````
+python arrays/problem_name.py
+```
 
-(or)
+or
 
 ```bash
-python array/1_smallest.py
+python strings/problem_name.py
 ```
 
 ---
 
-## 🎯 Purpose of This Repository
+## 🎯 Purpose of This Repo
 
-* Practice beginner-to-intermediate coding questions
-* Improve logic building and confidence
-* Build a revision-friendly codebase for exams and interviews
-
----
-
-## 🚀 Future Updates
-
-I will keep adding more solutions for:
-
-* Sorting
-* Strings
-* More advanced DSA topics
+✅ Placement exam preparation
+✅ Logical problem-solving improvement
+✅ Fast last-minute revision
+✅ Clean and beginner-friendly solutions in Python
+✅ Complete topic-wise structured notes + codebase
 
 ---
 
-## ⭐ If you found this useful
+## ⭐ Support
 
-Feel free to star the repo and use it for your own practice!
+If you found this repo helpful, feel free to ⭐ star it and use it for your own practice.
