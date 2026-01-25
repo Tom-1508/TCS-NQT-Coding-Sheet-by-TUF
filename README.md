@@ -6,6 +6,13 @@ The main goal of this repo is to act like a **complete learning + revision pack*
 
 ---
 
+## ✅ Courtesy / Reference
+The problem list and structure in this repository is taken from the **TakeUForward (TUF) – TCS NQT Coding Sheet**:
+
+https://takeuforward.org/interviews/tcs-nqt-coding-sheet-tcs-coding-questions
+
+---
+
 ## ✅ Topics Covered
 
 ### 📌 1) Arrays
